@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+} 
+.playBoard{
+  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+  /* background-color:red ; */
+}
+
+.btn_one {
+  background: transparent;
+  border: 1px solid #999;
+  float: left;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 34px;
+  height: 10rem;
+  width: 10rem;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.rowline:after{
+  clear: both;
+  content: '';
+  display: table;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
